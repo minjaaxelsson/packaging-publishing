@@ -5,7 +5,6 @@ from cancer_prediction.cancer_model import CancerModel
 # another option pytest
 
 
-
 class TestCancerModel(unittest.TestCase):
 
     def test_target_to_diagnosis(self):
