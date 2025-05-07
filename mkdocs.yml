@@ -1,0 +1,13 @@
+site_name: Cancer Prediction
+site_url: http://github.com/minjaaxelsson/packaging-publishing
+repo_url: http://github.com/minjaaxelsson/packaging-publishing
+nav:
+  - Home: index.md
+  - cancer-prediction:
+    - cancer model: cancer_prediction/cancer_model.md
+    - streamlit app: cancer_prediction/streamlit_app.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - . 
